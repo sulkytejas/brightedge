@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+  font-family: sans-serif;
+}
+
+.header_top {
+  background-color: #009DDA;
+  padding: 20px 0px;
+  @media screen and (max-width: 970px){
+    text-align: center;
+  }
+}
+
+.header_bottom{
+  .container{
+    text-align: center;
+  }
+  img {
+    top: -30px;
+    position: relative;
+    display: inline-block;
+    @media screen and (max-width: 970px){
+      top:0px;
+    }
+  }
+}
+
+.Main{
+  box-shadow: 1px 1px 8px #009DDA;
+}
+
+
+.left_main {
+  padding: 10px;
+  border-right: 1px solid #dadada;
+
+  @media screen and (max-width: 970px){
+     border-right: none;
+   }
+  .title {
+    font-weight: bolder;
+    font-size: 16px;
+  }
+  .body {
+    color: #A9A9A9;
+
+    .download {
+      color: #009DDA;
+    }
+  }
+  .Image {
+    text-align: center;
+  }
+}
+.right_main {
+  .right_main_body{
+    img{
+     @media screen and (max-width: 970px) {
+        display: none;
+      }
+  }
+  .right_main_text{
+    font-size: 23px;
+    padding: 5px 22px;
+    top: 11%;
+    text-align: center;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+    @media screen and (max-width: 970px){
+      position: relative;
+    }
+  }
+}}
+
+.bottom {
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 2px solid #a9a9a9;
+  border-bottom: 2px solid #a9a9a9;
+  @media screen and (max-width: 970px){
+    padding-bottom: 25px;
+  }
+  .col-md-3 {
+    text-align: center;
+  }
+  img {
+    @media screen and (max-width: 970px){
+      display: inline-block;
+    }
+
+  }
+  .header{
+    color: #696969;
+    @media screen and (max-width: 970px){
+      padding-bottom: 5px;
+    }
+  }
+  .title{
+    font-size: 23px;
+    @media screen and (max-width: 970px){
+      font-weight: bold;
+    }
+  }
+  .read_more{
+    text-align: center;
+  }
+}
+.modal-header{
+  background: #009DDA;
+
+  .modal-title {
+    text-align: center;
+    color: #fff;
+  }
+}
+.modal-footer{
+  background: #009DDA;
+}
+.footer{
+  background-color: #000;
+  padding: 20px 0px;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  @media screen and (max-width: 970px){
+    font-size: 13px;
+  }
+}
